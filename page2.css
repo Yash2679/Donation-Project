@@ -1,0 +1,117 @@
+    #pickup-slot-selector-section h3 {
+        font-size: 15px;
+        margin: 0 0 24px 0;
+        text-align: left;
+        font-weight: bold;
+    }
+    
+    #pickup-slot-selector-section h5 {
+        text-align: left;
+        font-size: 12px;
+        text-transform: uppercase;
+        margin-top: 24px;
+        margin-bottom: 16px;
+    }
+    
+    .inline-pickup-slots {
+        margin: 10px 0;
+        text-align: justify;
+    }
+    
+    .inline-pickup-slots span.selected {
+        border-color: #f15622;
+        background-color: #f15622;
+        color: white;
+    }
+    
+    .inline-pickup-slots span {
+        display: inline-block;
+        padding: 8px 12px;
+        margin: 0 8px 8px 0;
+        border: 1px solid #555;
+        cursor: pointer;
+        font-size: 13px;
+        border-radius: 4px;
+        font-weight: bold;
+    }
+    
+    #donation-step-container .form-field-wrap {
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    
+    #donation-step-container textarea {
+        height: 100px;
+        width: 100%;
+    }
+    
+    #donation-step-container .pickup-form .form-field-wrap {
+        margin-bottom: 20px;
+        position: relative;
+    }
+    
+    #donation-step-container .form-field-wrap {
+        overflow: hidden;
+        margin-bottom: 16px;
+    }
+    
+    .screen-reader-response .form-field-wrap form {
+        padding: 10px 12px;
+        border: 1px solid #f15623;
+        border-radius: 0px;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+    
+    .pickup-form h5 {
+        font-size: 15px;
+        margin: 0 0 18px;
+        font-weight: bold;
+    }
+    
+    #donation-step-container .checkout-panel {
+        overflow: hidden;
+        background-color: #f6f6f6;
+        margin-bottom: 30px;
+    }
+    
+    #donation-step-container .checkout-panel h3 {
+        font-size: 15px;
+        margin: 12px 15px 0 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        font-weight: bold;
+    }
+    
+    #donation-step-container button#backToItemSelection {
+        float: right;
+        margin-right: 16px;
+        background-color: #a2a2a2;
+        border-color: #a2a2a2;
+    }
+    
+    #donation-step-container .checkout-button-holder {
+        padding: 0 15px;
+    }
+    
+    .checkout-button-holder button {
+        display: block;
+        padding: 12px 24px;
+        background-color: #f15622;
+        border-radius: 0;
+        color: #fff;
+        margin: 14px auto;
+        text-transform: uppercase;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        border: 1px solid #f15622;
+    }
+    
+    @media screen and (max-width: 320px) {
+        /*Write your css here*/
+    }
+    
+    @media screen and (max-width: 800px) {}

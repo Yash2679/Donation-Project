@@ -1,0 +1,30 @@
+<html>
+
+<body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <p>Zip Code: <input type="text" id="zip" /></p>
+    <p>City: <input type="text" id="city" /></p>
+    <p>State: <input type="text" id="state" /></p>
+    <script>
+        $(document).ready(function() {
+            $("#zip").keyup(function() {
+                var el = $(this);
+                if (el.val().length === 5) {
+                    $.ajax({
+                        url: "http://zip.elevenbasetwo.com",
+                        cache: false,
+                        dataType: "json",
+                        type: "GET",
+                        data: "zip=" + el.val(),
+                        success: function(result, success) {
+                            $("#city").val(result.city);
+                            $("#state").val(result.state);
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

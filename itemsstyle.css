@@ -1,0 +1,129 @@
+.select-items {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-family: 'Lato', sans-serif;
+    background: white;
+}
+
+.tableitems h1 {
+    color: black;
+    text-align: start;
+}
+
+.box {
+    background-color: #fff;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 3px solid #ffffff;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+}
+
+.name {
+    margin-left: 20px;
+}
+
+.box .button {
+    width: 37px;
+    height: 37px;
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+    display: flex;
+    align-items: centre;
+    justify-content: center;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.box .button:active {
+    background: #ccc;
+}
+
+.box input {
+    width: 60px;
+    padding: 5px 10px;
+    border: 1px solid #FFA500;
+    border-radius: 5px;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.tableitems {
+    border-radius: 10px;
+    justify-content: center;
+    background: #fff;
+    width: 700px;
+    height: 900px;
+    border: 10px solid #FFA500;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid white;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .5);
+    margin-top: 10px;
+}
+
+.inside ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.list span {
+    cursor: pointer;
+    border-radius: 5px;
+    border: 3px solid;
+    padding: 20px;
+    box-sizing: initial;
+}
+
+.green {
+    color: ivory;
+    background: green;
+    box-shadow: 2px 8px 10px rgba(0, 0, 0, .5);
+}
+
+.grey {
+    color: grey;
+    border: 3px solid grey;
+    background: white;
+}
+
+.next {
+    float: right;
+}
+
+.next button {
+    background-color: orange;
+}
+
+.bold {
+    color: black;
+    background: white;
+    box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.5);
+}
+
+.button1 {
+    background-color: #FFA500;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button1:active {
+    background: #ccc;
+}

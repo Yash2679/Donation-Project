@@ -1,0 +1,108 @@
+.background {
+    background-color: #ffffff;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 10px;
+}
+
+.logo img {
+    padding-right: 60px;
+    float: left;
+}
+
+.help a {
+    font-size: 20px;
+    color: black;
+    line-height: 60px;
+    padding-right: 50px;
+}
+
+::selection {
+    color: #fff;
+    background: rgb(11, 26, 240);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .form {
+    position: relative;
+    background: #fff;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/* .form-group {
+    margin-bottom: 2px;
+} */
+
+.container .form form .form-control {
+    padding: 10px;
+    border-color: rgb(230, 16, 16);
+    margin: 10px 0;
+    height: 40px;
+    font-size: 15px;
+}
+
+.container .form-group div {
+    position: relative;
+    /* margin: 40px 0; */
+}
+
+.container .form form .forget-pass a {
+    font-size: 15px;
+}
+
+.container .form form .button {
+    background: #ee6565;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.container .form form .button:hover {
+    background: #ca3737;
+}
+
+.container .form form .link {
+    padding: 5px 0;
+}
+
+.container .form form .link a {
+    color: #6665ee;
+}
+
+.container .login-form form p {
+    font-size: 14px;
+}
+
+.container .row .alert {
+    font-size: 14px;
+}
+
+.container .form label {
+    position: absolute;
+    padding-right: 10px;
+    margin: 5px;
+    padding: 0 5px;
+    font-size: 20px;
+    -webkit-transition: top .2s ease-in-out, font-size .2s ease-in-out;
+    transition: top .2s ease-in-out, font-size .2s ease-in-out;
+}
+
+.container .form .active {
+    position: relative;
+    background-color: white;
+    top: 28px;
+    font-size: 18px;
+}

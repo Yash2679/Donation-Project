@@ -1,0 +1,290 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: Audiowide;
+}
+
+p {
+    font-size: 24px;
+    line-height: 50px;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #D4D7DE;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 15%;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 10%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+a {
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #000;
+}
+
+.d_d {
+    float: right;
+    overflow: hidden;
+}
+
+.d_d .drop_btn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding-top: 20px;
+    color: #000;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.abc:hover a {
+    color: #ff570c;
+}
+
+.drop_btn:hover {
+    color: #ff570c;
+}
+
+.navbar a:hover,
+.d_d:hover .drop_btn {
+    background-color: #D4D7DE;
+}
+
+.d_d-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.d_d-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.d_d-content a:hover {
+    background-color: #ddd;
+}
+
+.d_d:hover .d_d-content {
+    display: block;
+}
+
+.centreimage {
+    position: relative;
+    text-align: center;
+}
+
+.centre {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.centre h1 {
+    color: #ff570c;
+    font-weight: bold;
+}
+
+.centre h3 {
+    color: white;
+    font-weight: 20px;
+    text-align: center;
+}
+
+.centre #modal_btn {
+    text-align: center;
+    display: inline-block;
+    font-size: 15px;
+    text-decoration: none;
+    width: 212px;
+    line-height: 24px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    font-family: Nunito;
+    background-color: rgb(241, 86, 34);
+    border-color: rgb(0, 0, 0);
+    border-radius: 26px;
+    /* transition: all 0.2s linear; */
+    outline: none;
+    box-shadow: rgb(0, 0, 0) 0px 0px 8px 1px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 36px auto 8px;
+    padding: 12px 24px;
+}
+
+.centre #modal_btn:hover {
+    background-color: white;
+    color: black;
+    /* text-decoration: none !important; */
+}
+
+
+/* Styles for header2.html */
+
+.background {
+    background-color: #ffffff;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 10px;
+}
+
+.logo img {
+    padding-right: 60px;
+    float: left;
+}
+
+.help a {
+    line-height: 60px;
+    padding-right: 50px;
+    margin: 50px;
+}
+
+
+/* For Step Indicator */
+
+#donation-step-container .step-content {
+    position: relative;
+    border: 1px solid #e8e8e8;
+    padding: 30px;
+    min-height: 70vh;
+    margin: 70px 400px;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+#donation-step-container .tab-content>.tab-pane {
+    overflow: hidden;
+}
+
+.segment {
+    padding: 90px 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.segment-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p.how-we-work {
+    font-size: 35px;
+    position: relative;
+}
+
+.fourcol {
+    /* float: left; */
+    display: inline-block;
+    margin-right: 200px;
+    width: 300px;
+    padding: 10px
+}
+
+.fourcol h4 {
+    font-size: 25px;
+    color: #f15622;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.work {
+    margin: 0;
+    background-color: lightgray;
+}
+
+.work .workchild {
+    background-color: blue;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+.page-section {
+    position: relative;
+}
+
+.fourcol p {
+    line-height: 1.5;
+    margin: -15px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 0.8px;
+}
+
+.donateanything {
+    display: block;
+    position: relative;
+    background-color: #f6f6f7;
+}
+
+.pagesection2 article:nth-child(2n) {
+    background-color: #0202bd;
+}
+
+.sads-donate.row-1 {
+    margin-top: 60px;
+}
+
+.sads-donate {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    overflow: hidden;
+}
